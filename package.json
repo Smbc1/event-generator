@@ -1,0 +1,32 @@
+{
+  "name": "event-generator",
+  "version": "0.0.1",
+  "description": "Async events generator, makes possible to listen events in async loops",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smbc1/event-generator.git"
+  },
+  "keywords": [
+    "events",
+    "async",
+    "generator",
+    "await"
+  ],
+  "author": "Dmitrii Mozgovoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smbc1/event-generator/issues"
+  },
+  "homepage": "https://github.com/Smbc1/event-generator#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  },
+  "engines" : {
+    "node" : ">=10.1.0"
+  }
+}
